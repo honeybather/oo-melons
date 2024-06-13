@@ -45,7 +45,9 @@ def make_melon_types():
     all_melon_types.append(musk)
 
     cas = MelonType('Casba','cas', 2003, 'orange', False, False)
-    cas.add_pairing('mint', 'strawberries')
+    cas.add_pairing('mint')
+    cas.add_pairing('strawberries')
+
     all_melon_types.append(cas)
 
     cren = MelonType('Crenshaw','cren', 1996, 'green', False, False)
